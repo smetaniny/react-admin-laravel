@@ -1,0 +1,53 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# IDE
+/.idea/
+/.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+/.phpunit.cache/
+/coverage/
+/coverage-html/
+coverage.txt
+coverage.xml
+junit.xml
+
+# Build artifacts
+/build/
+/dist/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Composer
+composer.lock
+composer.phar
+
+# PHPStan
+phpstan.neon
+.phpstan.cache
+
+# PHP CS Fixer
+.php_cs.cache
+.php-cs-fixer.cache
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Database files
+*.sql
